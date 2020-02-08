@@ -2,7 +2,7 @@
 
 Vamos a lanzar nuestro contenedor y luego vamos a ir explicando paso a paso que significa el comando y sus parámetros; manos a la obra!, abre tu terminal y ejecuta el siguiente comando
 
-```text
+```bash
 docker run -d -p 80:80 dockersamples/101-tutorial:es
 ```
 
@@ -20,6 +20,10 @@ Notarás que se están usando algunos parámetros. Aquí hay más información s
 
 Puede combinar parámetros de un solo carácter para acortar el comando completo. Por ejemplo, el comando anterior podría escribirse como:
 
-`docker run -dp 80:80 dockersamples/101-tutorial:es`
+```bash
+docker run -dp 80:80 dockersamples/101-tutorial:es
+```
 {% endhint %}
+
+
 
