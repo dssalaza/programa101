@@ -2,11 +2,12 @@
 
 ### ¿Qué voy a aprender?
 
-1. Construcción de Imágenes 
-2. Volúmenes
-3. Networking
-4. Docker-Compose
-5. Linux VMs \(Conceptual Nivel básico\)
+1. Conceptos generales de contenerización
+2. Construcción de Imágenes 
+3. Volúmenes
+4. Networking
+5. Docker-Compose
+6. Linux VMs \(Conceptual Nivel básico\)
 
 
 
