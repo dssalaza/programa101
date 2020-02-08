@@ -12,5 +12,6 @@ Notarás que se están usando algunos parámetros. Aquí hay más información s
 
 * `-d` - ejecuta el contenedor en modo independiente \(tarea de fondo o segundo plano\).
 * `-p 80:80` - asigna el puerto 80 del host al puerto 80 del contenedor
-* `dockersamples/101-tutorial:es` - la imagen a utilizar especificando con `:` que queremos usar el tag es
+* `dockersamples/101-tutorial` - la imagen a utilizar especificando
+* `:es -` Aunque no es estrictamente un medio para identificar un contenedor, esto nos permite  especificar una versión de una imagen con la que te gustaría ejecutar el contenedor `image[:tag]` en este caso vamos a usar la versión español
 

@@ -1,6 +1,10 @@
 # Table of contents
 
-* [Introducción](README.md)
+* [Bienvenida](README.md)
+
+## Tema 1: Introducción a Infraestructura 101
+
+* [Introducción](tema-1-introduccion-a-infraestructura-101/introduccion.md)
 
 ## Tema 2: Contenerización
 
