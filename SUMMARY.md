@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Bienvenida](README.md)
+* [Pre-requisitos del programa](pre-requisitos-del-programa.md)
 
 ## Tema 1: Introducción a Infraestructura 101
 
