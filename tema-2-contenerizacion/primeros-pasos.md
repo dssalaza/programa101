@@ -15,3 +15,11 @@ Notarás que se están usando algunos parámetros. Aquí hay más información s
 * `dockersamples/101-tutorial` - la imagen a utilizar especificando
 * `:es -` Aunque no es estrictamente un medio para identificar un contenedor, esto nos permite  especificar una versión de una imagen con la que te gustaría ejecutar el contenedor `image[:tag]` en este caso vamos a usar la versión español
 
+{% hint style="info" %}
+**Consejo**
+
+Puede combinar parámetros de un solo carácter para acortar el comando completo. Por ejemplo, el comando anterior podría escribirse como:
+
+`docker run -dp 80:80 dockersamples/101-tutorial:es`
+{% endhint %}
+
