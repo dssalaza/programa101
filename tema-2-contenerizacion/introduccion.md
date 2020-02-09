@@ -4,10 +4,11 @@
 
 1. Conceptos generales de contenerización
 2. Construcción de Imágenes 
-3. Volúmenes
-4. Networking
-5. Docker-Compose
-6. Linux VMs \(Conceptual Nivel básico\)
+3. Actualizar el código fuente de la aplicación
+4. Volúmenes
+5. Networking
+6. Docker-Compose
+7. Linux VMs \(Conceptual Nivel básico\)
 
 
 
