@@ -55,7 +55,7 @@ docker run -dp 3000:3000 -v todo-db:/etc/todos infraestructura-101
 {% hint style="info" %}
 **Consejo**
 
-Aunque los volúmenes nombrados y los montajes de enlace \(de los que hablaremos en un minuto\) son los dos tipos principales de volúmenes soportados por una instalación de motor Docker predeterminada, hay muchos plugins de controladores de volumen disponibles para soportar NFS, SFTP, NetApp y mucho más. Esto será especialmente importante una vez que comience a ejecutar contenedores en múltiples hosts en un entorno agrupado con Swarm, Kubernetes, etc.
+Aunque los volúmenes nombrados y bind mounts \(de los que hablaremos en un minuto\) son los dos tipos principales de volúmenes soportados por una instalación de motor Docker predeterminada, hay muchos plugins de controladores de volumen disponibles para soportar NFS, SFTP, NetApp y mucho más. Esto será especialmente importante una vez que comience a ejecutar contenedores en múltiples hosts en un entorno agrupado con Swarm, Kubernetes, etc.
 {% endhint %}
 
 ### Sumérjase en nuestro Volumen <a id="sumerjase-en-nuestro-volumen"></a>
