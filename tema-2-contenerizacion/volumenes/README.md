@@ -58,7 +58,7 @@ docker run -dp 3000:3000 -v todo-db:/etc/todos infraestructura-101
 Aunque los volúmenes nombrados y bind mounts \(de los que hablaremos en un minuto\) son los dos tipos principales de volúmenes soportados por una instalación de motor Docker predeterminada, hay muchos plugins de controladores de volumen disponibles para soportar NFS, SFTP, NetApp y mucho más. Esto será especialmente importante una vez que comience a ejecutar contenedores en múltiples hosts en un entorno agrupado con Swarm, Kubernetes, etc.
 {% endhint %}
 
-### Sumérjase en nuestro Volumen <a id="sumerjase-en-nuestro-volumen"></a>
+### Sumérjase en el Volumen <a id="sumerjase-en-nuestro-volumen"></a>
 
 Mucha gente se pregunta con frecuencia "¿Dónde está Docker _actualmente_ almacenando mis datos cuando uso un volumen nombrado?" Si quiere saber, puede usar el comando `docker volume inspect`
 
