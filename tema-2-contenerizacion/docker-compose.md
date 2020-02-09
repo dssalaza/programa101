@@ -275,5 +275,5 @@ Una vez que se ha eliminado, puede cambiar a otro proyecto, ejecutar 'docker-com
 
 En esta sección, nos enteramos de Docker Compose y de cómo ayuda de forma espectacular a definir y compartir aplicaciones multiservicio. Creamos un archivo compose traduciendo los comandos que estábamos usando al formato compose apropiado.
 
-En este punto, hemos terminado el **Tema 2** de este programa. Sin embargo, hay otros temas relacionados con contenerización que puedes ver por tu propia cuenta, eso lo vamos a describir en la siguiente sección ¡Echemos un vistazo!
+En este punto, estamos por terminar el **Tema 2** de este programa. En la siguiente sección vamos a hablar un poco de Máquinas Virtuales \(VM\) no nos vamos a adentrar mucho en VM pero explicaremos su importancia y haremos una comparativa con contenerización.
 
