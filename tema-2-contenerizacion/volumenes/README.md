@@ -53,7 +53,7 @@ docker run -dp 3000:3000 -v todo-db:/etc/todos infraestructura-101
 ¡Genial! ¡Ahora ha aprendido a persistir los datos de su aplicación!
 
 {% hint style="info" %}
-**Consejo**
+**Información**
 
 Aunque los volúmenes nombrados y bind mounts \(de los que hablaremos en un minuto\) son los dos tipos principales de volúmenes soportados por una instalación de motor Docker predeterminada, hay muchos plugins de controladores de volumen disponibles para soportar NFS, SFTP, NetApp y mucho más. Esto será especialmente importante una vez que comience a ejecutar contenedores en múltiples hosts en un entorno agrupado con Swarm, Kubernetes, etc.
 {% endhint %}
