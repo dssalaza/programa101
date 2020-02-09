@@ -74,6 +74,12 @@ docker run -dp 3000:3000 infraestructura-101
 
 ![](../.gitbook/assets/todo-app-texto-actualizado.png)
 
+{% hint style="info" %}
+Consejo
+
+Puede detener y eliminar un contenedor con un solo comando añadiendo el parámetro "-f"  \(significa force\) al comando**`docker rm`** Por ejemplo: **`docker rm -f <el-identificador-del-contenedor>`**
+{% endhint %}
+
 ### Recapitulación
 
 Aunque hemos podido crear una actualización, hay dos cosas que puede que hayas notado:
