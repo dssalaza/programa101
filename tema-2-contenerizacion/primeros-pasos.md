@@ -17,7 +17,7 @@ Notarás que se están usando algunos parámetros. Aquí hay más información s
 * `hello-world` - la imagen a utilizar para el contenedor
 * `:linux` - Aunque no es estrictamente un medio para identificar un contenedor, esto nos permite  especificar una versión de una imagen con la que te gustaría ejecutar el contenedor `imagen[:versión]` en este caso vamos a usar la versión linux
 
-{% hint style="info" %}
+{% hint style="success" %}
 **Consejo**
 
 Puede combinar parámetros de un solo carácter para acortar el comando completo. Por ejemplo, el comando anterior podría escribirse como:
