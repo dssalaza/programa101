@@ -72,5 +72,5 @@ README.md   package.json   spec/   src/  yarn.lock
 
 ### Recapitulación
 
-En esta sección vimos conceptos generales de los contenedores y también ejecutamos uno, además obtuvimos el código fuente de la aplicación que vamos a utilizar en los siguientes módulos de contenerización. Más adelante nos adentraremos más en las imágenes, cubriendo temas como las capas, buenas prácticas y mucho más.
+En esta sección vimos conceptos generales de los contenedores y también ejecutamos uno, además obtuvimos el código fuente de la aplicación que vamos a utilizar en los siguientes módulos de contenerización. Más adelante nos adentraremos más en las imágenes, donde aprenderemos a cómo construir una imágen y desplegar un contenedor basado en esa imágen.
 
