@@ -13,4 +13,6 @@
 * [Primeros Pasos](tema-2-contenerizacion/primeros-pasos.md)
 * [Construcción de imágen](tema-2-contenerizacion/construccion-de-imagen.md)
 * [Actualizar el código fuente de la aplicación](tema-2-contenerizacion/actualizar-el-codigo-fuente-de-la-aplicacion.md)
+* [Volúmenes](tema-2-contenerizacion/volumenes/README.md)
+  * [Usando Bind Mounts](tema-2-contenerizacion/volumenes/usando-bind-mounts.md)
 
