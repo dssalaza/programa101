@@ -20,6 +20,11 @@ CMD ["node", "/app/src/index.js"]
 docker build -t infraestructura-101 .
 ```
 
+Notarás que se están usando algunos parámetros. Aquí hay más información sobre ellos:
+
+* `-t`  - Nombre y opcionalmente una etiqueta en el formato 'imágen:tag'.
+* `.` - Indica que el directorio en el que se debe compilar la imagen es el mismo en el que se está ejecutando el comando docker build
+
 Este comando usó el Dockerfile para construir una nueva imagen del contenedor. Puede que haya notado que se han descargado muchas "capas". Esto se debe a que instruimos al constructor que queríamos empezar desde la imagen `node:10-alpine`. Pero, como no teníamos esa imagen en nuestra máquina, necesitaba ser descargada.
 
 Después de eso, copiamos en nuestra aplicación y usamos `yarn` para instalar las dependencias de nuestra aplicación. La directiva `CMD` especifica el comando por defecto que se ejecutará al iniciar un contenedor desde esta imagen.
