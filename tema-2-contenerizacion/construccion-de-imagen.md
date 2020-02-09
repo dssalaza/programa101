@@ -1,7 +1,5 @@
 # Construcción de imágen
 
-
-
 Para construir la aplicación, necesitamos usar un `Dockerfile`. Un Dockerfile es simplemente un script de instrucciones basado en texto que se utiliza para crear una imagen de contenedor. Si ya ha creado Dockerfiles anteriormente, es posible que aparezcan algunos defectos en el Dockerfile que se muestra a continuación. Pero, ¡no te preocupes! Los revisaremos.
 
 1. Cree un archivo llamado Dockerfile con el siguiente contenido.
