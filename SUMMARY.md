@@ -11,4 +11,5 @@
 
 * [Introducción](tema-2-contenerizacion/introduccion.md)
 * [Primeros Pasos](tema-2-contenerizacion/primeros-pasos.md)
+* [Construcción de imágen](tema-2-contenerizacion/construccion-de-imagen.md)
 
