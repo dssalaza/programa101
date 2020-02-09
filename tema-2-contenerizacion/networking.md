@@ -1,6 +1,6 @@
 # Networking
 
-Hasta este punto, hemos estado trabajando con aplicaciones de contenedores individuales. Pero, ahora queremos añadir MySQL a la pila de aplicaciones. A menudo se plantea la siguiente pregunta: "¿Dónde se ejecutará MySQL? ¿Instalarlo en el mismo contenedor o ejecutarlo por separado?" En general, **cada contenedor debe hacer una cosa y hacerlo bien.** Algunas razones:
+Hasta este punto, hemos estado trabajando con aplicaciones de contenedores individuales. Pero, ahora queremos añadir MySQL a la pila de aplicaciones. A menudo se plantea la siguiente pregunta: "¿Dónde se ejecutará MySQL? ¿Instalarlo en el mismo contenedor o ejecutarlo por separado?" En general, **cada contenedor debe hacer una cosa y debe hacerlo bien.** Algunas razones:
 
 * Es muy probable que tenga que escalar las API y los interfaces de usuario de forma diferente a las bases de datos.
 * Los contenedores separados le permiten versionar y actualizar versiones de forma aislada.
