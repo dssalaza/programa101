@@ -2,7 +2,7 @@
 
 ### Persistiendo nuestra base de datos
 
-En caso de que no lo hayas notado, nuestra lista de cosas por hacer está siendo limpiada cada vez que lanzamos el contenedor. ¿Por qué sucede esto? Vamos a ver cómo funciona el contenedor.
+En caso de que no lo hayas notado, nuestra lista de tareas por hacer está siendo limpiada cada vez que lanzamos el contenedor. ¿Por qué sucede esto? Vamos a ver cómo funciona el contenedor.
 
 ### El sistema de archivos del contenedor <a id="el-sistema-de-archivos-del-contenedor"></a>
 
