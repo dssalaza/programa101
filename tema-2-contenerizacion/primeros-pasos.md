@@ -29,7 +29,7 @@ docker run -dp 2000:2000 hello-world:linux
 
 ### ¿Qué es un contenedor? <a id="que-es-un-contenedor"></a>
 
-Ahora que ha ejecutado un contenedor, ¿qué es un contenedor? En pocas palabras, un contenedor es simplemente otro proceso en su máquina que ha sido aislado de todos los demás procesos en la máquina anfitriona \(máquina host\). Ese aislamiento aprovecha [namespaces del kernel y cgroups](https://medium.com/@saschagrunert/demystifying-containers-part-i-kernel-space-2c53d6979504), características que han estado en Linux durante mucho tiempo. En taller usamos la herramienta Docker la cual ha trabajado para que estas capacidades sean accesibles y fáciles de usar.
+Ahora que ha ejecutado un contenedor, ¿qué es un contenedor? En pocas palabras, un contenedor es simplemente otro proceso en su máquina que ha sido aislado de todos los demás procesos en la máquina anfitriona \(máquina host\). Ese aislamiento aprovecha [namespaces del kernel y cgroups](https://medium.com/@saschagrunert/demystifying-containers-part-i-kernel-space-2c53d6979504), características que han estado en Linux durante mucho tiempo. En este programa usamos la herramienta Docker la cual ha trabajado para que estas capacidades sean accesibles y fáciles de usar.
 
 ### ¿Qué es una imagen de contenedor? <a id="que-es-una-imagen-de-contenedor"></a>
 
