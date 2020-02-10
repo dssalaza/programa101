@@ -9,7 +9,7 @@ A continuación vamos a listar los beneficios de las VM's:
 * Herramientas de seguridad establecidas 
 * Controles de seguridad más conocidos
 
-Así mismo actualmente hay varios proveedores de VM's entre los cuales tenemos:\
+Actualmente hay varios proveedores de VM's entre los cuales tenemos:
 
 * [VMware vSphere](https://www.vmware.com/products/vsphere.html)
 * [VirtualBox](https://www.virtualbox.org/)
@@ -19,7 +19,7 @@ Así mismo actualmente hay varios proveedores de VM's entre los cuales tenemos:\
 
 ### Contenedores
 
-La tecnología de contenedores es una alternativa a las VM's; mejora el uso de los recursos de hardware y permite compartir el consumo de CPU, RAM y la transferencia de datos a través de la red. Los mismos recursos de hardware pueden ser utilizados por varias aplicaciones de software. Esto abre la posibilidad de ampliar el concepto de Infraestructura como Servicio \(IaaS\) introduciendo los Contenedores como Servicio \(CaaS\). La tecnología de contenedores ha crecido rápidamente debido a sus características que permiten ejecutar aún más aplicaciones de software en el mismo hardware que usando VM.
+Con los contenedores, en lugar de virtualizar la computadora base como una máquina virtual \(VM\), sólo se virtualiza el sistema operativo, de esta manera los mismos recursos de hardware pueden ser utilizados por varias aplicaciones de software. Esto abre la posibilidad de ampliar el concepto de Infraestructura como Servicio \(IaaS\) introduciendo los Contenedores como Servicio \(CaaS\). La tecnología de contenedores ha crecido rápidamente debido a sus características que permiten ejecutar aún más aplicaciones de software en el mismo hardware que usando VM.
 
 ![](../.gitbook/assets/comparacion-vm-vs-contenedores.png)
 
@@ -40,5 +40,23 @@ Así mismo en contenerización hay varios proveedores como:
 * [Docker](https://www.docker.com/)
 * [Windows Server Containers](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/)
 
+### Máquinas Virtuales VS Contenedores
 
+Tanto los contenedores como las máquinas virtuales tienen ventajas e inconvenientes, y la decisión final dependerá de sus necesidades específicas, pero hay algunas reglas generales.
+
+Las máquinas virtuales son una mejor opción para ejecutar aplicaciones que requieren todos los recursos y la funcionalidad del sistema operativo cuando se necesita ejecutar múltiples aplicaciones en servidores, o cuando se tiene que administrar una amplia variedad de sistemas operativos. Los contenedores son una mejor opción cuando su mayor prioridad es maximizar el número de aplicaciones que se ejecutan en un número mínimo de servidores.
+
+| **Máquinas Virtuales** | **Contenedores** |
+| :--- | :--- |
+| Pesado | Ligero |
+| Rendimiento limitado | Rendimiento nativo |
+| Cada VM es ejecutada con su propio SO | Todos los contenedores comparten el SO del sistema nativo |
+| Virtualización a nivel de Hardware | Virtualización a nivel de SO |
+| Tiempo de inicio: minutos | Tiempo de inicio: milisegundos |
+| Se debe asignar la memoria RAM requerida | No se necesita asignar memoria RAM \(Aunque si hay la posibilidad de hacerlo\) |
+| Completamente aislado y por lo tanto más seguro | Aislamiento a nivel de proceso, posiblemente menos seguro |
+
+### Recapitulación
+
+En esta sección vimos conceptos, beneficios y principales proveedores de VM y Contenedores, con esto hemos terminado el **Tema 2**. Sin embargo no todo se acaba aquí! Si estás interesado en aprender más sobre contenerización a continuación vamos a compartir recursos que puedes seguir por tu propia cuenta cómo: compartir mis imágenes en Docker Hub, buenas prácticas de construcción de imágenes, orquestación de contenedores y más. 
 
