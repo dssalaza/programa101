@@ -49,7 +49,7 @@ Tanto los contenedores como las máquinas virtuales tienen ventajas e inconvenie
 
 | **Máquinas Virtuales** | **Contenedores** |
 | :--- | :--- |
-| Pesado | Ligero |
+| Regularmente ocupan mucho espacio en el disco duro **\(Pesado\)** | Regularmente ocupan poco espacio en el disco duro **\(Ligero\)** |
 | Rendimiento limitado | Rendimiento nativo |
 | Cada VM es ejecutada con su propio SO | Todos los contenedores comparten el SO del sistema nativo |
 | Virtualización a nivel de Hardware | Virtualización a nivel de SO |
