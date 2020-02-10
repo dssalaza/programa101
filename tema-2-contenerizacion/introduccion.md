@@ -8,7 +8,7 @@
 4. Volúmenes
 5. Networking
 6. Docker-Compose
-7. Máquinas Virtuales \(Conceptual Nivel básico\)
+7. Linux VMs \(Conceptual Nivel básico\)
 
 
 

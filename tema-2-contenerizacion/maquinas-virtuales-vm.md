@@ -42,9 +42,10 @@ Así mismo en contenerización hay varios proveedores como:
 
 ### Máquinas Virtuales VS Contenedores
 
-Tanto los contenedores como las máquinas virtuales tienen ventajas e inconvenientes, y la decisión final dependerá de sus necesidades específicas, pero hay algunas reglas generales.
+Tanto los contenedores como las máquinas virtuales tienen ventajas e inconvenientes, y la decisión final dependerá de sus necesidades específicas, pero hay algunas reglas generales:
 
-Las máquinas virtuales son una mejor opción para ejecutar aplicaciones que requieren todos los recursos y la funcionalidad del sistema operativo cuando se necesita ejecutar múltiples aplicaciones en servidores, o cuando se tiene que administrar una amplia variedad de sistemas operativos. Los contenedores son una mejor opción cuando su mayor prioridad es maximizar el número de aplicaciones que se ejecutan en un número mínimo de servidores.
+* Las máquinas virtuales son una mejor opción para ejecutar aplicaciones que requieren todos los recursos y la funcionalidad del sistema operativo cuando se necesita ejecutar múltiples aplicaciones en servidores, o cuando se tiene que administrar una amplia variedad de sistemas operativos. 
+* Los contenedores son una mejor opción cuando su mayor prioridad es maximizar el número de aplicaciones que se ejecutan en un número mínimo de servidores.
 
 | **Máquinas Virtuales** | **Contenedores** |
 | :--- | :--- |
