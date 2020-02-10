@@ -84,6 +84,6 @@ Puede detener y eliminar un contenedor con un solo comando añadiendo el paráme
 
 Aunque hemos podido crear una actualización, hay dos cosas que puede que hayas notado:
 
-* Todos las tareas existentes en nuestra lista de tareas por hacer han desaparecido! Esa no es una muy buena aplicación! Hablaremos de eso pronto.
+* Todos las tareas existentes en nuestra lista de tareas por hacer han desaparecido! Esa no es una buena experiencia de usuario! Hablaremos de eso pronto.
 * Había _muchos_ pasos involucrados para un cambio tan pequeño. En la próxima sección, hablaremos sobre cómo ver las actualizaciones de código sin necesidad de reconstruir y comenzar un nuevo contenedor cada vez que hagamos un cambio.
 
