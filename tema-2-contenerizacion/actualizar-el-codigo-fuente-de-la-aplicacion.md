@@ -4,7 +4,7 @@ Como una pequeña petición de funcionalidad, el equipo de producto nos ha pedid
 
 > ¡Todavía no tienes tareas que realizar! ¡Agregue una tarea arriba!
 
-Bastante simple, ¿verdad? Hagamos el cambio.
+Bastante simple, ¿verdad? hagamos el cambio.
 
 ### Actualizando nuestro Código Fuente <a id="actualizando-nuestro-codigo-fuente"></a>
 

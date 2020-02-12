@@ -39,7 +39,7 @@ docker run -dp 3000:3000 \
 ```
 
 * `-dp 3000:3000` - igual que antes. Ejecutar en modo independiente \(en segundo plano\) y crear una asignación de puertos
-* `-w /app` - establece el "directorio de trabajo" o el directorio actual desde el que se ejecutará el comando
+* `-w /app` - establece el "directorio de trabajo" o el directorio actual dentro del contenedor
 * `-v $PWD:/app`- realiza el montaje de volumen en donde  `$PWD`significa el directorio en donde se está ejecutando el comando y `:/app`el destino a donde van a ir mis datos dentro del contenedor
 * `node:10-alpine` - la imagen a utilizar. Tenga en cuenta que esta es la imagen base de nuestra aplicación desde el Dockerfile
 * `sh -c "yarn install && yarn run dev"` - el comando. Estamos iniciando una shell usando `sh` \(alpine no tiene `bash`\) y ejecutando `yarn install` para instalar _todas las_ dependencias y luego ejecutando `yarn run dev`. Si miramos en el `package.json`, veremos que el script `dev` está empezando `nodemon`.
