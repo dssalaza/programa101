@@ -8,7 +8,7 @@ Vamos a lanzar nuestro contenedor y luego vamos a ir explicando paso a paso que 
 docker run -d -p 2000:2000 hello-world:linux
 ```
 
-Felicitaciones! Ha iniciado el contenedor para este tutorial! Primero vamos a explicar el comando que acabas de ejecutar.
+Felicitaciones! Ha iniciado el contenedor para este taller! Primero vamos a explicar el comando que acabas de ejecutar.
 
 Notarás que se están usando algunos parámetros. Aquí hay más información sobre ellos:
 
@@ -43,7 +43,7 @@ Si está familiarizado con **`chroot`**, piense en un contenedor como una versi�
 
 ### Nuestra aplicación
 
-Para el resto de los módulos del tema 2, trabajaremos con un simple gestor de listas de tareas \(todo list\) que se está ejecutando en NodeJS. Si no estás familiarizado con NodeJS, ¡no te preocupes! ¡No se necesita experiencia real con JavaScript!
+Para el resto de las secciones del tema 2, trabajaremos con un gestor de listas de tareas \(todo list\) que se está ejecutando en NodeJS. Si no estás familiarizado con NodeJS, ¡no te preocupes! ¡No se necesita experiencia real con JavaScript!
 
 En este punto, su equipo de desarrollo es bastante pequeño y usted simplemente está construyendo una aplicación para probar su MVP \(Producto Mínimo Viable\). Quieres mostrar cómo funciona y lo que es capaz de hacer sin necesidad de pensar en cómo funcionará para un equipo grande, múltiples desarrolladores, etc.
 
