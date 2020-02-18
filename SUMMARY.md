@@ -6,6 +6,7 @@
 ## Tema 1: Introducción a Infraestructura 101
 
 * [Introducción](tema-1-introduccion-a-infraestructura-101/introduccion.md)
+* [Importancia de la infraestructura](tema-1-introduccion-a-infraestructura-101/importancia-de-la-infraestructura.md)
 
 ## Tema 2: Contenerización
 
