@@ -41,7 +41,7 @@ docker run -dp 3000:3000 infraestructura-101
 
 2. Abra la aplicación en su navegador web visitando [http://localhost:3000](http://localhost:3000) . Una vez abierto, ¡debería tener una lista de tareas por hacer vacía!
 
-![](../.gitbook/assets/todo-app-inicio.png)
+![](../../.gitbook/assets/todo-app-inicio.png)
 
 3. Adelante, agregue una o dos tareas y vea que funciona como usted espera. Puede marcar las tareas como completadas y eliminarlas.
 

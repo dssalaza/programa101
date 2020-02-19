@@ -92,7 +92,7 @@ La aplicación todo soporta la configuración de algunas variables de entorno pa
 {% hint style="warning" %}
 **Advertencia**
 
-Mientras que el uso de **ENV** vars para establecer los ajustes de conexión es generalmente aceptable para el desarrollo, es **ALTAMENTE DESCARTADO** cuando se ejecutan aplicaciones en producción. Diogo Mónica, antiguo jefe de seguridad de Docker, [escribió una fantástica entrada en el blog](https://diogomonica.com/2017/03/27/why-you-shouldnt-use-env-variables-for-secret-data/) explicando lo antes mencionado.
+El uso de variables de entorno \(**ENV\)**  es usado para establecer los ajustes de conexión, generalmente es aceptable para el ambiente de desarrollo, pero es **ALTAMENTE DESCARTADO** cuando se ejecutan aplicaciones en ambientes de producción. Diogo Mónica, antiguo jefe de seguridad de Docker, [escribió una fantástica entrada en este blog](https://diogomonica.com/2017/03/27/why-you-shouldnt-use-env-variables-for-secret-data/) explicando lo antes mencionado.
 
 Un mecanismo más seguro es utilizar el soporte secreto proporcionado por su estructura de orquestación de contenedores. En la mayoría de los casos, estos secretos se montan como archivos en el contenedor en ejecución. Verás muchas aplicaciones \(incluyendo la imagen MySQL y la aplicación todo\) que también soportan env vars con un sufijo `_FILE` para apuntar a un archivo que contiene el archivo.
 
