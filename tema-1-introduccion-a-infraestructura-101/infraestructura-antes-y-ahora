@@ -1,0 +1,14 @@
+# Infraestructura: antes y ahora 🚀
+
+Hace mucho tiempo atrás en un data center lejano, un grupo muy sabio de seres humanos conocidos como SysAdmins
+solía desplegar infraestructura de forma manual. Esto es: configurar cada servidor, cada tabla de routeo,
+cada configuración de bases de datos y cada balanceador de carga era creado y configurado.
+Era una época oscura y llena de miedos; miedo de un que haya alguna falla en la red, una configuración errónea y 
+miedo de que pasaría si alguno de los miembros llegaran a tomar vacaciones.
+La buena noticia es que gracias al movimiento de DevOps tenemos mejores herramientas para atacar estos miedos,
+como lo son:
+```
+- IaaS 
+- PaaS
+- SaaS
+```
